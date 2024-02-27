@@ -1,0 +1,42 @@
+name: "KleinLab"
+url: "https://github.com/TheKleinLab/labutil-repo.git"
+
+scripts:
+    export_data:
+        script: "export_data.sh"
+        language: "bash"
+
+studies:
+    ExoInstructions:
+        url: "https://github.com/TheKleinLab/ExoInstructions.git"
+        shortcut_dir: "Riana Honours 2023"
+        shortcuts:
+            - name: "Exo Instructions Task (NI-A)"
+              args: "--condition NI-A"
+              xdg_icon: "application-x-appliance-symbolic"
+            - name: "Exo Instructions Task (NI-B)"
+              args: "--condition NI-B"
+              xdg_icon: "application-x-appliance-symbolic"
+            - name: "Exo Instructions Task (I-A)"
+              args: "--condition I-A"
+              xdg_icon: "application-x-appliance-symbolic"
+            - name: "Exo Instructions Task (I-B)"
+              args: "--condition I-B"
+              xdg_icon: "application-x-appliance-symbolic"
+            - name: "Export Data"
+              script: "save_data"
+              xdg_icon: "sheets"
+
+    CAST_Redux:
+        url: "https://github.com/TheKleinLab/CAST.git"
+        shortcut_dir: "CAST Aging 2022"
+        shortcuts:
+            - name: "CAST (Order 1)"
+              args: "--condition exo"
+              xdg_icon: "mate-panel-fish"
+            - name: "CAST (Order 2)"
+              args: "--condition endo"
+              xdg_icon: "mate-panel-fish"
+            - name: "Export Data"
+              script: "save_data"
+              xdg_icon: "sheets"
