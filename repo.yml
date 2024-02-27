@@ -40,3 +40,13 @@ studies:
             - name: "Export Data"
               script: "save_data"
               xdg_icon: "sheets"
+
+    Gaze_ILM:
+        url: "https://github.com/TheKleinLab/Gaze_ILM.git"
+        shortcut_dir: "DISP ILM 2024"
+        shortcuts:
+            - name: "Gaze ILM Task"
+              xdg_icon: "network-transmit-receive-symbolic"
+            - name: "Export Data"
+              script: "save_data"
+              xdg_icon: "sheets"
