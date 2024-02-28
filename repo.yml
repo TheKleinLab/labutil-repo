@@ -49,4 +49,4 @@ studies:
               xdg_icon: "network-transmit-receive-symbolic"
             - name: "Export Data"
               script: "save_data"
-              xdg_icon: "sheets"
+              xdg_icon: "x-office-spreadsheet-data"
